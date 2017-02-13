@@ -25,5 +25,6 @@ When completed, submit your code to GitHub and send us a link to your solution!
 1. Using $http vs $resource to retrieve JSON data
 2. How I could have applied DRY/minimized repition in my CSS, specifically with the table such as with <th> and <td>
 3. Test driven development is DEFINITELY something that I am practicing on my current position within the Framework/am dedicating time to improve on
-4. Utilizing AngularJS docs/semantic programming guides me through the architecture of my code
-5. I feel the same way about JavaScript as I did about CSS when I started programming -- a little bit of overprogramming but see an improvement over time with JavaScript
+4. Now I'm considering that writing tests before development would have impacted my development maybe more positively. I could have developed based upon the results that I was aiming for
+5. Utilizing AngularJS docs/semantic programming guides me through the architecture of my code
+6. I feel the same way about JavaScript as I did about CSS when I started programming -- a little bit of overprogramming but see an improvement over time with JavaScript
