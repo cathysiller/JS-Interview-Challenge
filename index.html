@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+
+  <script type="text/javascript" src="app.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <title>JSON With AngularJS</title>
+</head>
+
+<body ng-controller="indexController">
+  <div class="container">
+
+    <div class="page-header text-center">
+      <h1>Rackspace JavaScript Challenge</h1>
+      <h1>
+        <small>Made With 
+          <span class="glyphicon glyphicon-heart red"></span> by 
+          <a href="http://cathysiller.com/" target="_blank">Cathy Siller</a>
+        </small>
+      </h1>
+    </div>
+
+    <table class="table table-striped">
+      <tr>
+        <th>
+          <a href="#" ng-click="orderByField='userId'; reverseSort = !reverseSort">
+          userId <span ng-show="orderByField == 'userId'"></span>
+         </a>
+        </th>
+        <th>
+          <a href="#" ng-click="orderByField='id'; reverseSort = !reverseSort">
+          id <span ng-show="orderByField == 'id'"></span>
+         </a>
+        </th>
+        <th>
+          <a href="#" ng-click="orderByField='title'; reverseSort = !reverseSort">
+          title <span ng-show="orderByField == 'title'"></span>
+          </a>
+        </th>
+        <th>
+          <a href="#" ng-click="orderByField='body'; reverseSort = !reverseSort">
+          body <span ng-show="orderByField == 'body'"></span>
+          </a>
+        </th>
+      </tr>
+      <tr ng-repeat="user in users | orderBy:orderByField:reverseSort">
+        <td>{{user.userId}}</td>
+        <td>{{user.id}}</td>
+        <td>{{user.title}}</td>
+        <td>{{user.body}}</td>
+      </tr>
+    </table>
+  </container>
+</body>
+</html>
