@@ -21,7 +21,7 @@ Things that you can do to WOW us,
 
 When completed, submit your code to GitHub and send us a link to your solution!
 
-# Things That I Learned/Debated on/Room for Improvement
+# Things That I Learned/Room for Improvement
 1. Using $http vs $resource to retrieve JSON data
 2. How I could have applied DRY/minimized repetition in my CSS, specifically with the table such as with the repeating of header/standard cells
 3. Test driven development is DEFINITELY something that I am practicing on my current position within the Framework/am dedicating time to improve on
