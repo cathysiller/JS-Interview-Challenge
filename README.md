@@ -23,7 +23,7 @@ When completed, submit your code to GitHub and send us a link to your solution!
 
 # Things That I Learned/Debated on/Room for Improvement
 1. Using $http vs $resource to retrieve JSON data
-2. How I could have applied DRY/minimized repition in my CSS, specifically with the table such as with <th> and <td>
+2. How I could have applied DRY/minimized repition in my CSS, specifically with the table such as with the repeating of header/standard cells
 3. Test driven development is DEFINITELY something that I am practicing on my current position within the Framework/am dedicating time to improve on
 4. Now I'm considering that writing tests before development would have impacted my development maybe more positively. I could have developed based upon the results that I was aiming for
 5. Utilizing AngularJS docs/semantic programming guides me through the architecture of my code
