@@ -1,0 +1,20 @@
+.container {
+  margin: auto;
+  margin: 10px auto;
+  font-family: arial;
+}
+
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+
+.red {
+  color: #C71585;
+}
+
+a {
+  color: #777 !important;
+}
